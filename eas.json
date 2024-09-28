@@ -30,11 +30,11 @@
   },
   "submit": {
     "production": {
-      "ios": {
-        // "appleId": "",
-        // "ascAppId": "",
-        // "appleTeamId": ""
-      }
+      // "ios": {
+      //   "appleId": "",
+      //   "ascAppId": "",
+      //   "appleTeamId": ""
+      // }
     }
   }
 }
