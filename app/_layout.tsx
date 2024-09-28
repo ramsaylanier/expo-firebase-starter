@@ -11,10 +11,9 @@ export default function RootLayout() {
   const background = global.loginForm === "register" ? secondary : primary;
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: background }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "white" }}>
       <Stack screenOptions={{ headerShown: false }}>
         <Stack.Screen name="(main)" />
-        <Stack.Screen name="(auth)" />
       </Stack>
     </SafeAreaView>
   );

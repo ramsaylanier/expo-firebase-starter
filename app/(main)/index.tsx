@@ -5,12 +5,12 @@ import { ThemedText } from "@/components/ThemedText";
 import { View } from "react-native";
 
 export default function GameChest() {
-  const { background, primary } = useThemeColors();
+  const { background } = useThemeColors();
 
   return (
     <Flex style={[styles.container, { backgroundColor: background }]}>
-      <View style={styles.listContainer(primary)}>
-        <ThemedText>MAIN PAGE</ThemedText>
+      <View style={styles.listContainer(background)}>
+        <ThemedText>&#128512;</ThemedText>
       </View>
     </Flex>
   );

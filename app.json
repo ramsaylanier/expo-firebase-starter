@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "your.project.name",
-    "slug": "your-project-slug",
+    "name": "emojinate",
+    "slug": "emojinate",
     "version": "1.0.0",
     "orientation": "portrait",
     "jsEngine": "hermes",
     "icon": "./assets/images/icon.png",
-    "scheme": "yourprojectscheme",
+    "scheme": "emojinate",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -14,19 +14,16 @@
       "backgroundColor": "#000000"
     },
     "ios": {
-      "bundleIdentifier": "your.bundle.identifier",
-      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.rawms.emojinate",
       "supportsTablet": true,
       "usesAppleSignIn": true
-      
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "googleServicesFile": "./google-services.json",
-      "package": "your.package.name"
+      "package": "com.rawms.emojinate"
     },
     "web": {
       "bundler": "metro",
@@ -35,9 +32,6 @@
     },
     "plugins": [
       "expo-router",
-      "@react-native-firebase/app",
-      "@react-native-firebase/auth",
-      "@react-native-firebase/app-check",
       [
         "expo-build-properties",
         {
@@ -49,14 +43,7 @@
             "minSdkVersion": 24
           }
         }
-      ],
-      [
-        "@react-native-google-signin/google-signin",
-        {
-          "iosUrlScheme": "com.googleusercontent.apps.687647794878-3jqrcjt738vf963urd9m2gc7ibki5hqm"
-        }
-      ],
-      "expo-apple-authentication"
+      ]
     ],
     "experiments": {
       "typedRoutes": true
@@ -66,8 +53,9 @@
         "origin": false
       },
       "eas": {
-        "projectId": "5bf3f09b-3bf6-4d3c-8322-b4151bcec346"
+        "projectId": "621f0aff-0ad7-4039-8285-b7a6e22366f6"
       }
-    }
+    },
+    "owner": "rawms-studios"
   }
 }

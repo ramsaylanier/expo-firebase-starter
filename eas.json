@@ -13,20 +13,14 @@
       "distribution": "internal",
       "ios":{
         "simulator": true
-      },
-      "android": {
-        "simulator": true
       }
     },
     "preview": {
-      "distribution": "internal",
+      "distribution": "internal"
     },
     "preview-simulator": {
       "distribution": "internal",
       "ios":{
-        "simulator": true
-      },
-      "android": {
         "simulator": true
       }
     },
@@ -37,9 +31,9 @@
   "submit": {
     "production": {
       "ios": {
-        "appleId": "",
-        "ascAppId": "",
-        "appleTeamId": ""
+        // "appleId": "",
+        // "ascAppId": "",
+        // "appleTeamId": ""
       }
     }
   }
