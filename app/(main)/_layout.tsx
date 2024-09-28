@@ -32,7 +32,7 @@ export default observer(function MainLayout() {
         }}
       >
         <Stack.Screen
-          name="/"
+          name="index"
           options={{
             title: "",
           }}
