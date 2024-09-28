@@ -1,6 +1,15 @@
-# Welcome to your Expo app 👋
+# React Native + Expo + Firebase + Mobx Starter 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This repo is the starting point for creating a React Native application using
+Expo with Firebase Authentication.
+
+It features:
+-  [Expo](https://docs.expo.dev/) + Expo Router for navigation
+-  [MobX](https://mobx.js.org/README.html) for reactive client-side state management 
+-  [Firebase](https://rnfirebase.io/) authentication using react-native-firebase 
+-  Login / Register / Forgot Password Screens with support for Google and Apple Login
+-  Theming for Dark and Light modes
+
 
 ## Get started
 
@@ -10,7 +19,18 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Review the `eas.json` file and make any updates needed.
+
+3. Review the `app.json` file and update the following:
+   - name
+   - slug
+   - scheme
+   - package
+
+4. Create a new project in Expo and run the `eas init --id <your-app-id>`
+   command that it tells you to. This will update `app.json` with your project id
+
+5. Start the app
 
    ```bash
     npx expo start
@@ -21,19 +41,10 @@ In the output, you'll find options to open the app in a
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- 
 
 You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
 ## Learn more
 
